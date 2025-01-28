@@ -46,7 +46,10 @@ This will open the application in your default web browser at http://localhost:3
 ## Features of the Editor
 
 1. Writing Code
-  - The editor is preloaded with a basic example (const App = () => <h1>Hello, World!</h1>;).
+  - The editor is preloaded with a basic example:
+  ```jsx
+  const App = () => <h1>Hello, World!</h1>;
+  ```
   - You can modify the code in the editor as you like. This React code will be transpiled and rendered in real-time in the preview section.
 
 2. Live Preview
