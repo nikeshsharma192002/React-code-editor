@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# React Code Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based code editor built using React, featuring live previews, package management, and an interactive development environment.
 
-## Available Scripts
+## 🚀 [Live Demo](https://react-code-editor-nikesh.netlify.app/)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Code Editor**: A live code editor with syntax highlighting and error reporting.
+- **Live Preview**: Displays real-time output of the code as you write.
+- **Package Management**: Allows you to add packages (e.g., `lodash`, `axios`) via CDN and use them in your code.
+- **Run Button**: Executes the code and shows the output in the preview section.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js
+- **Libraries**:
+  - Babel (for JS transformation)
+  - Skypack (for loading packages)
+- **CSS**: Custom CSS with Flexbox Layout
+- **Editor**: Monaco Editor or CodeMirror (depending on your setup)
 
-### `npm test`
+## Running the Project Locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project on your local machine, follow these steps:
 
-### `npm run build`
+### 1. Clone the repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/nikeshsharma192002/react-code-editor.git
+```
+### 2. Navigate into the project directory
+```bash
+cd react-code-editor
+```
+### 3. Install dependencies
+```bash
+npm install
+```
+### 4. Start the development server
+```bash
+npm start
+```
+This will open the application in your default web browser at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features of the Editor
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Writing Code
+  - The editor is preloaded with a basic example (const App = () => <h1>Hello, World!</h1>;).
+  - You can modify the code in the editor as you like. This React code will be transpiled and rendered in real-time in the preview section.
 
-### `npm run eject`
+2. Live Preview
+  - As you write code, the preview will automatically update to show the output of your React code.
+  - The editor uses Babel to transpile your JavaScript/JSX into browser-readable JavaScript.
+    
+3. Adding Packages
+  - You can add external JavaScript libraries using the Package Manager input.
+  - Type the name of the package (e.g., lodash, axios) and click Add Package.
+  - The package will be dynamically imported and available for use in your code.
+    
+4. Running Code
+  - Once you’re happy with the code, click the Run button to execute the code and see the results in the preview.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+Feel free to fork the repository and create a pull request if you’d like to contribute.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Steps to contribute:
+  - Fork the repository
+  - Clone your fork
+  - Create a new branch
+  - Make changes and commit them
+  - Open a pull request to merge into the main repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
